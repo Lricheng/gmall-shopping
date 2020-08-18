@@ -1,0 +1,615 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for con.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.alibaba:dubbo:jar -> duplicate declaration of version ${dubbo.version} @ con.atguigu.gmall:gmall-parent:1.0-SNAPSHOT, /Users/liuyi/IdeaProjects/gmall-shopping/gmall-parent/pom.xml, line 85, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.101tec:zkclient:jar -> duplicate declaration of version ${zkclient.version} @ con.atguigu.gmall:gmall-parent:1.0-SNAPSHOT, /Users/liuyi/IdeaProjects/gmall-shopping/gmall-parent/pom.xml, line 91, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.gitee.reger:spring-boot-starter-dubbo:jar -> duplicate declaration of version ${dubbo-starter.version} @ con.atguigu.gmall:gmall-parent:1.0-SNAPSHOT, /Users/liuyi/IdeaProjects/gmall-shopping/gmall-parent/pom.xml, line 97, column 25
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.atguigu.gmall:gmall-order-web:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-web:jar -> duplicate declaration of version (?) @ line 47, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for con.atguigu.gmall:gmall-parent:pom:1.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.alibaba:dubbo:jar -> duplicate declaration of version ${dubbo.version} @ line 85, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.101tec:zkclient:jar -> duplicate declaration of version ${zkclient.version} @ line 91, column 25
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.gitee.reger:spring-boot-starter-dubbo:jar -> duplicate declaration of version ${dubbo-starter.version} @ line 97, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gmall-parent                                                       [pom]
+[INFO] gmall-bean                                                         [jar]
+[INFO] gmall-interface                                                    [jar]
+[INFO] gmall-common-util                                                  [jar]
+[INFO] gmall-web-util                                                     [jar]
+[INFO] gmall-service-util                                                 [jar]
+[INFO] gmall-order-web                                                    [jar]
+[INFO] gmall-user-manage                                                  [jar]
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/johnzon/johnzon-maven-plugin/1.1.10/johnzon-maven-plugin-1.1.10.pom
+Progress (1): 2.3/3.6 kBProgress (1): 3.6 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/johnzon/johnzon-maven-plugin/1.1.10/johnzon-maven-plugin-1.1.10.pom (3.6 kB at 2.8 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/johnzon/johnzon/1.1.10/johnzon-1.1.10.pom
+Progress (1): 2.3/25 kBProgress (1): 5.1/25 kBProgress (1): 7.9/25 kBProgress (1): 11/25 kB Progress (1): 14/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 22/25 kBProgress (1): 25 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/johnzon/johnzon/1.1.10/johnzon-1.1.10.pom (25 kB at 50 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/johnzon/johnzon-maven-plugin/1.1.10/johnzon-maven-plugin-1.1.10.jar
+Progress (1): 2.3/26 kBProgress (1): 5.1/26 kBProgress (1): 7.9/26 kBProgress (1): 11/26 kB Progress (1): 14/26 kBProgress (1): 16/26 kBProgress (1): 19/26 kBProgress (1): 22/26 kBProgress (1): 25/26 kBProgress (1): 26 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/johnzon/johnzon-maven-plugin/1.1.10/johnzon-maven-plugin-1.1.10.jar (26 kB at 47 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.pom
+Progress (1): 2.3/6.1 kBProgress (1): 5.1/6.1 kBProgress (1): 6.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.pom (6.1 kB at 16 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-project/1.2.71/kotlin-project-1.2.71.pom
+Progress (1): 2.3/10 kBProgress (1): 5.1/10 kBProgress (1): 7.9/10 kBProgress (1): 10 kB                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-project/1.2.71/kotlin-project-1.2.71.pom (10 kB at 27 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.jar
+Progress (1): 2.3/79 kBProgress (1): 5.1/79 kBProgress (1): 7.9/79 kBProgress (1): 11/79 kB Progress (1): 14/79 kBProgress (1): 16/79 kBProgress (1): 19/79 kBProgress (1): 22/79 kBProgress (1): 25/79 kBProgress (1): 28/79 kBProgress (1): 30/79 kBProgress (1): 33/79 kBProgress (1): 36/79 kBProgress (1): 39/79 kBProgress (1): 42/79 kBProgress (1): 44/79 kBProgress (1): 47/79 kBProgress (1): 50/79 kBProgress (1): 53/79 kBProgress (1): 56/79 kBProgress (1): 58/79 kBProgress (1): 61/79 kBProgress (1): 64/79 kBProgress (1): 67/79 kBProgress (1): 70/79 kBProgress (1): 72/79 kBProgress (1): 75/79 kBProgress (1): 78/79 kBProgress (1): 79 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.jar (79 kB at 174 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.pom
+Progress (1): 2.3/3.3 kBProgress (1): 3.3 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.pom (3.3 kB at 8.2 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-parent/3.10.8/jooq-parent-3.10.8.pom
+Progress (1): 2.3/11 kBProgress (1): 5.1/11 kBProgress (1): 7.9/11 kBProgress (1): 11 kB                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-parent/3.10.8/jooq-parent-3.10.8.pom (11 kB at 24 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.jar
+Progress (1): 2.3/16 kBProgress (1): 5.1/16 kBProgress (1): 7.9/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.jar (16 kB at 37 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom
+Progress (1): 2.3/16 kBProgress (1): 5.1/16 kBProgress (1): 7.9/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom (16 kB at 42 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar
+Progress (1): 2.3/241 kBProgress (1): 5.1/241 kBProgress (1): 7.9/241 kBProgress (1): 11/241 kB Progress (1): 14/241 kBProgress (1): 16/241 kBProgress (1): 19/241 kBProgress (1): 22/241 kBProgress (1): 25/241 kBProgress (1): 28/241 kBProgress (1): 30/241 kBProgress (1): 33/241 kBProgress (1): 36/241 kBProgress (1): 39/241 kBProgress (1): 42/241 kBProgress (1): 44/241 kBProgress (1): 47/241 kBProgress (1): 50/241 kBProgress (1): 53/241 kBProgress (1): 56/241 kBProgress (1): 58/241 kBProgress (1): 61/241 kBProgress (1): 64/241 kBProgress (1): 67/241 kBProgress (1): 70/241 kBProgress (1): 72/241 kBProgress (1): 75/241 kBProgress (1): 78/241 kBProgress (1): 81/241 kBProgress (1): 84/241 kBProgress (1): 86/241 kBProgress (1): 89/241 kBProgress (1): 92/241 kBProgress (1): 95/241 kBProgress (1): 98/241 kBProgress (1): 100/241 kBProgress (1): 103/241 kBProgress (1): 106/241 kBProgress (1): 109/241 kBProgress (1): 112/241 kBProgress (1): 114/241 kBProgress (1): 117/241 kBProgress (1): 120/241 kBProgress (1): 123/241 kBProgress (1): 126/241 kBProgress (1): 128/241 kBProgress (1): 131/241 kBProgress (1): 134/241 kBProgress (1): 137/241 kBProgress (1): 140/241 kBProgress (1): 142/241 kBProgress (1): 145/241 kBProgress (1): 148/241 kBProgress (1): 151/241 kBProgress (1): 154/241 kBProgress (1): 156/241 kBProgress (1): 159/241 kBProgress (1): 162/241 kBProgress (1): 165/241 kBProgress (1): 168/241 kBProgress (1): 170/241 kBProgress (1): 173/241 kBProgress (1): 176/241 kBProgress (1): 179/241 kBProgress (1): 182/241 kBProgress (1): 184/241 kBProgress (1): 187/241 kBProgress (1): 190/241 kBProgress (1): 193/241 kBProgress (1): 196/241 kBProgress (1): 198/241 kBProgress (1): 201/241 kBProgress (1): 204/241 kBProgress (1): 207/241 kBProgress (1): 210/241 kBProgress (1): 212/241 kBProgress (1): 215/241 kBProgress (1): 218/241 kBProgress (1): 221/241 kBProgress (1): 224/241 kBProgress (1): 226/241 kBProgress (1): 229/241 kBProgress (1): 232/241 kBProgress (1): 235/241 kBProgress (1): 238/241 kBProgress (1): 240/241 kBProgress (1): 241 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar (241 kB at 498 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom
+Progress (1): 2.3/14 kBProgress (1): 5.1/14 kBProgress (1): 7.9/14 kBProgress (1): 11/14 kB Progress (1): 14/14 kBProgress (1): 14 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom (14 kB at 38 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.jar
+Progress (1): 2.3/166 kBProgress (1): 5.1/166 kBProgress (1): 7.9/166 kBProgress (1): 11/166 kB Progress (1): 14/166 kBProgress (1): 16/166 kBProgress (1): 19/166 kBProgress (1): 22/166 kBProgress (1): 25/166 kBProgress (1): 28/166 kBProgress (1): 30/166 kBProgress (1): 33/166 kBProgress (1): 36/166 kBProgress (1): 39/166 kBProgress (1): 42/166 kBProgress (1): 44/166 kBProgress (1): 47/166 kBProgress (1): 50/166 kBProgress (1): 53/166 kBProgress (1): 56/166 kBProgress (1): 58/166 kBProgress (1): 61/166 kBProgress (1): 64/166 kBProgress (1): 67/166 kBProgress (1): 70/166 kBProgress (1): 72/166 kBProgress (1): 75/166 kBProgress (1): 78/166 kBProgress (1): 81/166 kBProgress (1): 84/166 kBProgress (1): 86/166 kBProgress (1): 89/166 kBProgress (1): 92/166 kBProgress (1): 95/166 kBProgress (1): 98/166 kBProgress (1): 100/166 kBProgress (1): 103/166 kBProgress (1): 106/166 kBProgress (1): 109/166 kBProgress (1): 112/166 kBProgress (1): 114/166 kBProgress (1): 117/166 kBProgress (1): 120/166 kBProgress (1): 123/166 kBProgress (1): 126/166 kBProgress (1): 128/166 kBProgress (1): 131/166 kBProgress (1): 134/166 kBProgress (1): 137/166 kBProgress (1): 140/166 kBProgress (1): 142/166 kBProgress (1): 145/166 kBProgress (1): 148/166 kBProgress (1): 151/166 kBProgress (1): 154/166 kBProgress (1): 156/166 kBProgress (1): 159/166 kBProgress (1): 162/166 kBProgress (1): 165/166 kBProgress (1): 166 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.jar (166 kB at 362 kB/s)
+[INFO] 
+[INFO] -------------------< con.atguigu.gmall:gmall-parent >-------------------
+[INFO] Building gmall-parent 1.0-SNAPSHOT                                 [1/8]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-parent ---
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+Progress (1): 2.3/3.9 kBProgress (1): 3.9 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (3.9 kB at 10 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+Progress (1): 2.3/4.1 kBProgress (1): 4.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4.1 kB at 11 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+Progress (1): 2.3/2.7 kBProgress (1): 2.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (2.7 kB at 7.0 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/7/maven-parent-7.pom
+Progress (1): 2.3/21 kBProgress (1): 5.1/21 kBProgress (1): 7.9/21 kBProgress (1): 11/21 kB Progress (1): 14/21 kBProgress (1): 16/21 kBProgress (1): 19/21 kBProgress (1): 21 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 kB at 56 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+Progress (1): 765 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (765 B at 2.1 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+Progress (1): 2.3/13 kBProgress (1): 5.1/13 kBProgress (1): 7.9/13 kBProgress (1): 11/13 kB Progress (1): 13 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (13 kB at 36 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+Progress (1): 767 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (767 B at 2.1 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+Progress (1): 588 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (588 B at 1.3 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+Progress (1): 2.3/6.4 kBProgress (1): 5.1/6.4 kBProgress (1): 6.4 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (6.4 kB at 19 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom
+Progress (1): 2.3/5.9 kBProgress (1): 5.1/5.9 kBProgress (1): 5.9 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom (5.9 kB at 16 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom
+Progress (1): 1.9 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom (1.9 kB at 5.3 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm-parent/5.0.2/asm-parent-5.0.2.pom
+Progress (1): 2.3/5.5 kBProgress (1): 5.1/5.5 kBProgress (1): 5.5 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm-parent/5.0.2/asm-parent-5.0.2.pom (5.5 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+Progress (1): 2.3/2.7 kBProgress (1): 2.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (2.7 kB at 7.6 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+Progress (1): 2.3/5.7 kBProgress (1): 5.1/5.7 kBProgress (1): 5.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom (5.7 kB at 16 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+Progress (1): 727 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom (727 B at 2.0 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+Progress (1): 2.3/154 kBProgress (1): 5.1/154 kBProgress (1): 7.9/154 kBProgress (1): 11/154 kB Progress (1): 14/154 kBProgress (1): 16/154 kBProgress (1): 19/154 kBProgress (1): 22/154 kBProgress (1): 25/154 kBProgress (1): 28/154 kBProgress (1): 30/154 kBProgress (1): 33/154 kBProgress (1): 36/154 kBProgress (1): 39/154 kBProgress (1): 42/154 kBProgress (1): 44/154 kBProgress (1): 47/154 kBProgress (1): 50/154 kBProgress (1): 53/154 kBProgress (1): 56/154 kBProgress (1): 58/154 kBProgress (1): 61/154 kBProgress (1): 64/154 kBProgress (1): 67/154 kBProgress (1): 70/154 kBProgress (1): 72/154 kBProgress (1): 75/154 kBProgress (1): 78/154 kBProgress (1): 81/154 kBProgress (1): 84/154 kBProgress (1): 86/154 kBProgress (1): 89/154 kBProgress (1): 92/154 kBProgress (1): 95/154 kBProgress (1): 98/154 kBProgress (1): 100/154 kBProgress (1): 103/154 kBProgress (1): 106/154 kBProgress (1): 109/154 kBProgress (1): 112/154 kBProgress (1): 114/154 kBProgress (1): 117/154 kBProgress (1): 120/154 kBProgress (1): 123/154 kBProgress (1): 126/154 kBProgress (1): 128/154 kBProgress (1): 131/154 kBProgress (1): 134/154 kBProgress (1): 137/154 kBProgress (1): 140/154 kBProgress (1): 142/154 kBProgress (1): 145/154 kBProgress (1): 148/154 kBProgress (1): 151/154 kBProgress (1): 154/154 kBProgress (1): 154 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar (154 kB at 284 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+Progress (1): 2.3/168 kBProgress (1): 5.1/168 kBProgress (1): 7.9/168 kBProgress (1): 11/168 kB Progress (1): 14/168 kBProgress (2): 14/168 kB | 2.3/38 kBProgress (2): 14/168 kB | 5.1/38 kBProgress (2): 14/168 kB | 7.9/38 kBProgress (2): 14/168 kB | 11/38 kB Progress (3): 14/168 kB | 11/38 kB | 2.3/39 kBProgress (3): 14/168 kB | 11/38 kB | 5.1/39 kBProgress (3): 14/168 kB | 11/38 kB | 7.9/39 kBProgress (3): 14/168 kB | 11/38 kB | 11/39 kB Progress (3): 14/168 kB | 11/38 kB | 14/39 kBProgress (4): 14/168 kB | 11/38 kB | 14/39 kB | 2.3/38 kBProgress (4): 14/168 kB | 11/38 kB | 14/39 kB | 5.1/38 kBProgress (4): 14/168 kB | 11/38 kB | 14/39 kB | 7.9/38 kBProgress (4): 14/168 kB | 11/38 kB | 14/39 kB | 11/38 kB Progress (4): 16/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 19/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 22/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 25/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 28/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 30/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 33/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 11/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 14/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 16/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 19/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 22/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 25/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 28/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 30/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 33/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 36/38 kB | 14/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 14/39 kB | 11/38 kB   Progress (4): 36/168 kB | 38 kB | 16/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 19/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 22/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 25/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 28/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 30/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 33/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 36/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 39/39 kB | 11/38 kBProgress (4): 36/168 kB | 38 kB | 39 kB | 11/38 kB   Progress (4): 36/168 kB | 38 kB | 39 kB | 14/38 kBProgress (4): 39/168 kB | 38 kB | 39 kB | 14/38 kBProgress (4): 42/168 kB | 38 kB | 39 kB | 14/38 kBProgress (4): 42/168 kB | 38 kB | 39 kB | 16/38 kBProgress (4): 42/168 kB | 38 kB | 39 kB | 19/38 kBProgress (4): 44/168 kB | 38 kB | 39 kB | 19/38 kBProgress (4): 44/168 kB | 38 kB | 39 kB | 22/38 kBProgress (4): 47/168 kB | 38 kB | 39 kB | 22/38 kBProgress (4): 47/168 kB | 38 kB | 39 kB | 25/38 kBProgress (4): 50/168 kB | 38 kB | 39 kB | 25/38 kBProgress (4): 50/168 kB | 38 kB | 39 kB | 28/38 kBProgress (4): 53/168 kB | 38 kB | 39 kB | 28/38 kBProgress (4): 53/168 kB | 38 kB | 39 kB | 30/38 kBProgress (4): 56/168 kB | 38 kB | 39 kB | 30/38 kBProgress (4): 56/168 kB | 38 kB | 39 kB | 33/38 kBProgress (4): 58/168 kB | 38 kB | 39 kB | 33/38 kBProgress (4): 58/168 kB | 38 kB | 39 kB | 36/38 kBProgress (4): 61/168 kB | 38 kB | 39 kB | 36/38 kBProgress (4): 61/168 kB | 38 kB | 39 kB | 38 kB   Progress (4): 64/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 67/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 70/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 72/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 75/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 78/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 81/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 84/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 86/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 89/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 92/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 95/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 98/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 100/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 103/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 106/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 109/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 112/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 114/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 117/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 120/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 123/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 126/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 128/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 131/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 134/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 137/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 140/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 142/168 kB | 38 kB | 39 kB | 38 kBProgress (4): 145/168 kB | 38 kB | 39 kB | 38 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 2.3/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 5.1/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 7.9/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 11/43 kB Progress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 14/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 16/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 19/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 22/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 25/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 28/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 30/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 33/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 36/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 39/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 42/43 kBProgress (5): 145/168 kB | 38 kB | 39 kB | 38 kB | 43 kB   Progress (5): 148/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 151/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 154/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 156/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 159/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 162/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 165/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 168/168 kB | 38 kB | 39 kB | 38 kB | 43 kBProgress (5): 168 kB | 38 kB | 39 kB | 38 kB | 43 kB                                                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (38 kB at 47 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 kB at 48 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar (38 kB at 44 kB/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (43 kB at 47 kB/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-digester/commons-digester/1.6/commons-digester-1.6.jar (168 kB at 179 kB/s)
+Progress (1): 2.3/35 kBProgress (1): 5.1/35 kBProgress (1): 7.9/35 kBProgress (1): 11/35 kB Progress (1): 14/35 kBProgress (1): 16/35 kBProgress (1): 19/35 kBProgress (1): 22/35 kBProgress (1): 25/35 kBProgress (1): 28/35 kBProgress (1): 30/35 kBProgress (1): 33/35 kBProgress (1): 35 kB   Progress (2): 35 kB | 2.3/53 kBProgress (2): 35 kB | 5.1/53 kBProgress (2): 35 kB | 7.9/53 kBProgress (2): 35 kB | 11/53 kB Progress (2): 35 kB | 14/53 kBProgress (2): 35 kB | 16/53 kBProgress (2): 35 kB | 19/53 kBProgress (2): 35 kB | 22/53 kBProgress (2): 35 kB | 25/53 kBProgress (2): 35 kB | 28/53 kBProgress (2): 35 kB | 30/53 kBProgress (2): 35 kB | 33/53 kBProgress (2): 35 kB | 36/53 kBProgress (2): 35 kB | 39/53 kBProgress (2): 35 kB | 42/53 kBProgress (2): 35 kB | 44/53 kBProgress (2): 35 kB | 47/53 kBProgress (2): 35 kB | 50/53 kBProgress (2): 35 kB | 53/53 kBProgress (2): 35 kB | 53 kB                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar (35 kB at 30 kB/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar (53 kB at 45 kB/s)
+[INFO] con.atguigu.gmall:gmall-parent:pom:1.0-SNAPSHOT
+[INFO] 
+[INFO] --------------------< con.atguigu.gmall:gmall-bean >--------------------
+[INFO] Building gmall-bean 1.0-SNAPSHOT                                   [2/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-bean ---
+[INFO] con.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT
+[INFO] +- tk.mybatis:mapper-spring-boot-starter:jar:1.2.3:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |     +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |     +- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |     \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.mybatis:mybatis:jar:3.4.5:compile
+[INFO] |  +- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] |  +- tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- tk.mybatis:mapper:jar:3.5.2:compile
+[INFO] |     \- javax.persistence:persistence-api:jar:1.0:compile
+[INFO] \- org.projectlombok:lombok:jar:1.16.22:compile
+[INFO] 
+[INFO] -----------------< con.atguigu.gmall:gmall-interface >------------------
+[INFO] Building gmall-interface 1.0-SNAPSHOT                              [3/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-interface ---
+[INFO] con.atguigu.gmall:gmall-interface:jar:1.0-SNAPSHOT
+[INFO] +- com.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- tk.mybatis:mapper-spring-boot-starter:jar:1.2.3:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  |  \- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  |     +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  |     +- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  |     \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  |  +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  |  +- org.mybatis:mybatis:jar:3.4.5:compile
+[INFO] |  |  +- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] |  |  +- tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3:compile
+[INFO] |  |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  |  \- tk.mybatis:mapper:jar:3.5.2:compile
+[INFO] |  |     \- javax.persistence:persistence-api:jar:1.0:compile
+[INFO] |  \- org.projectlombok:lombok:jar:1.16.22:compile
+[INFO] \- con.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT:compile
+[INFO] 
+[INFO] ----------------< con.atguigu.gmall:gmall-common-util >-----------------
+[INFO] Building gmall-common-util 1.0-SNAPSHOT                            [4/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-common-util ---
+[INFO] con.atguigu.gmall:gmall-common-util:jar:1.0-SNAPSHOT
+[INFO] +- com.alibaba:dubbo:jar:2.6.0:compile
+[INFO] |  +- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |  \- org.jboss.netty:netty:jar:3.2.5.Final:compile
+[INFO] +- com.101tec:zkclient:jar:0.10:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- org.apache.zookeeper:zookeeper:jar:3.4.8:compile
+[INFO] |     +- log4j:log4j:jar:1.2.16:compile
+[INFO] |     +- jline:jline:jar:0.9.94:compile
+[INFO] |     \- io.netty:netty:jar:3.7.0.Final:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:compile
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:compile
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO] |  +- junit:junit:jar:4.12:compile
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:compile
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:compile
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:compile
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:compile
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
+[INFO] |  +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.11.RELEASE:compile
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.35:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.35:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.35:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.13.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.11.RELEASE:compile
+[INFO] +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO] |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] +- commons-codec:commons-codec:jar:1.11:compile
+[INFO] \- com.alibaba:fastjson:jar:1.2.46:compile
+[INFO] 
+[INFO] ------------------< con.atguigu.gmall:gmall-web-util >------------------
+[INFO] Building gmall-web-util 1.0-SNAPSHOT                               [5/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-web-util ---
+[INFO] con.atguigu.gmall:gmall-web-util:jar:1.0-SNAPSHOT
+[INFO] +- net.sourceforge.nekohtml:nekohtml:jar:1.9.20:compile
+[INFO] |  \- xerces:xercesImpl:jar:2.10.0:compile
+[INFO] +- xml-apis:xml-apis:jar:1.4.01:compile
+[INFO] +- org.apache.xmlgraphics:batik-ext:jar:1.9.1:compile
+[INFO] +- com.atguigu.gmall:gmall-common-util:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-test:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-test:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+[INFO] |  |  |  \- net.minidev:json-smart:jar:2.3:compile
+[INFO] |  |  |     \- net.minidev:accessors-smart:jar:1.2:compile
+[INFO] |  |  |        \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO] |  |  +- junit:junit:jar:4.12:compile
+[INFO] |  |  +- org.assertj:assertj-core:jar:3.9.1:compile
+[INFO] |  |  +- org.mockito:mockito-core:jar:2.15.0:compile
+[INFO] |  |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:compile
+[INFO] |  |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:compile
+[INFO] |  |  |  \- org.objenesis:objenesis:jar:2.6:compile
+[INFO] |  |  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] |  |  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+[INFO] |  |  +- org.skyscreamer:jsonassert:jar:1.5.0:compile
+[INFO] |  |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-test:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.xmlunit:xmlunit-core:jar:2.5.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-web:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.7:compile
+[INFO] |  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.35:compile
+[INFO] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.35:compile
+[INFO] |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.35:compile
+[INFO] |  |  +- org.hibernate.validator:hibernate-validator:jar:6.0.13.Final:compile
+[INFO] |  |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  |  +- org.springframework:spring-web:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-webmvc:jar:5.0.11.RELEASE:compile
+[INFO] |  |     +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |  |     +- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO] |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  \- com.alibaba:fastjson:jar:1.2.46:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.7.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO]    |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO]    |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO]    |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO]    |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO]    |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]    |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO]    +- org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE:compile
+[INFO]    |  +- org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE:compile
+[INFO]    |  |  +- org.attoparser:attoparser:jar:2.0.5.RELEASE:compile
+[INFO]    |  |  \- org.unbescape:unbescape:jar:1.1.6.RELEASE:compile
+[INFO]    |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    \- org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.2.RELEASE:compile
+[INFO] 
+[INFO] ----------------< con.atguigu.gmall:gmall-service-util >----------------
+[INFO] Building gmall-service-util 1.0-SNAPSHOT                           [6/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-service-util ---
+[INFO] con.atguigu.gmall:gmall-service-util:jar:1.0-SNAPSHOT
+[INFO] +- com.atguigu.gmall:gmall-common-util:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-test:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-test:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+[INFO] |  |  |  \- net.minidev:json-smart:jar:2.3:compile
+[INFO] |  |  |     \- net.minidev:accessors-smart:jar:1.2:compile
+[INFO] |  |  |        \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO] |  |  +- junit:junit:jar:4.12:compile
+[INFO] |  |  +- org.assertj:assertj-core:jar:3.9.1:compile
+[INFO] |  |  +- org.mockito:mockito-core:jar:2.15.0:compile
+[INFO] |  |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:compile
+[INFO] |  |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:compile
+[INFO] |  |  |  \- org.objenesis:objenesis:jar:2.6:compile
+[INFO] |  |  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] |  |  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+[INFO] |  |  +- org.skyscreamer:jsonassert:jar:1.5.0:compile
+[INFO] |  |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-test:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.xmlunit:xmlunit-core:jar:2.5.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-web:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.7:compile
+[INFO] |  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.35:compile
+[INFO] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.35:compile
+[INFO] |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.35:compile
+[INFO] |  |  +- org.hibernate.validator:hibernate-validator:jar:6.0.13.Final:compile
+[INFO] |  |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  |  +- org.springframework:spring-web:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-webmvc:jar:5.0.11.RELEASE:compile
+[INFO] |  |     +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |  |     +- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO] |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  \- com.alibaba:fastjson:jar:1.2.46:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- com.zaxxer:HikariCP:jar:2.7.9:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- org.springframework:spring-jdbc:jar:5.0.11.RELEASE:compile
+[INFO] |     +- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |     \- org.springframework:spring-tx:jar:5.0.11.RELEASE:compile
+[INFO] +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1:compile
+[INFO] |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.1:compile
+[INFO] |  +- org.mybatis:mybatis:jar:3.4.5:compile
+[INFO] |  \- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.47:runtime
+[INFO] \- redis.clients:jedis:jar:2.9.0:compile
+[INFO]    \- org.apache.commons:commons-pool2:jar:2.5.0:compile
+[INFO] 
+[INFO] -----------------< com.atguigu.gmall:gmall-order-web >------------------
+[INFO] Building gmall-order-web 0.0.1-SNAPSHOT                            [7/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-order-web ---
+[INFO] com.atguigu.gmall:gmall-order-web:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.35:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.35:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.35:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.13.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.11.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] +- com.atguigu.gmall:gmall-interface:jar:1.0-SNAPSHOT:compile
+[INFO] |  \- com.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT:compile
+[INFO] |     +- tk.mybatis:mapper-spring-boot-starter:jar:1.2.3:compile
+[INFO] |     |  +- org.mybatis:mybatis:jar:3.4.5:compile
+[INFO] |     |  +- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] |     |  +- tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3:compile
+[INFO] |     |  \- tk.mybatis:mapper:jar:3.5.2:compile
+[INFO] |     |     \- javax.persistence:persistence-api:jar:1.0:compile
+[INFO] |     \- org.projectlombok:lombok:jar:1.16.22:compile
+[INFO] +- net.sourceforge.nekohtml:nekohtml:jar:1.9.20:compile
+[INFO] |  \- xerces:xercesImpl:jar:2.10.0:compile
+[INFO] +- xml-apis:xml-apis:jar:1.4.01:compile
+[INFO] +- org.apache.xmlgraphics:batik-ext:jar:1.9.1:compile
+[INFO] +- com.atguigu.gmall:gmall-web-util:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- com.atguigu.gmall:gmall-common-util:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] |  |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO] |  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  \- com.alibaba:fastjson:jar:1.2.46:compile
+[INFO] |  \- org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.7.RELEASE:compile
+[INFO] |     +- org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE:compile
+[INFO] |     |  \- org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE:compile
+[INFO] |     |     +- org.attoparser:attoparser:jar:2.0.5.RELEASE:compile
+[INFO] |     |     \- org.unbescape:unbescape:jar:1.1.6.RELEASE:compile
+[INFO] |     \- org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.2.RELEASE:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:2.0.7.RELEASE:test
+[INFO]    +- org.springframework.boot:spring-boot-test:jar:2.0.7.RELEASE:test
+[INFO]    +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.7.RELEASE:test
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO]    |  +- net.minidev:json-smart:jar:2.3:test
+[INFO]    |  |  \- net.minidev:accessors-smart:jar:1.2:test
+[INFO]    |  |     \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO]    |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    +- junit:junit:jar:4.12:test
+[INFO]    +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO]    +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO]    |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO]    |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO]    |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO]    +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO]    |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO]    +- org.springframework:spring-test:jar:5.0.11.RELEASE:test
+[INFO]    \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] 
+[INFO] ----------------< com.atguigu.gmall:gmall-user-manage >-----------------
+[INFO] Building gmall-user-manage 0.0.1-SNAPSHOT                          [8/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ gmall-user-manage ---
+[INFO] com.atguigu.gmall:gmall-user-manage:jar:0.0.1-SNAPSHOT
+[INFO] +- con.atguigu.gmall:gmall-service-util:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- com.atguigu.gmall:gmall-common-util:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+[INFO] |  |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[INFO] |  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  |  +- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  \- com.alibaba:fastjson:jar:1.2.46:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:2.7.9:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:5.0.11.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-tx:jar:5.0.11.RELEASE:compile
+[INFO] |  +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1:compile
+[INFO] |  |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.1:compile
+[INFO] |  |  +- org.mybatis:mybatis:jar:3.4.5:compile
+[INFO] |  |  \- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] |  +- mysql:mysql-connector-java:jar:5.1.47:runtime
+[INFO] |  \- redis.clients:jedis:jar:2.9.0:compile
+[INFO] |     \- org.apache.commons:commons-pool2:jar:2.5.0:compile
+[INFO] +- con.atguigu.gmall:gmall-interface:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- com.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  +- tk.mybatis:mapper-spring-boot-starter:jar:1.2.3:compile
+[INFO] |  |  |  +- tk.mybatis:mapper-spring-boot-autoconfigure:jar:1.2.3:compile
+[INFO] |  |  |  \- tk.mybatis:mapper:jar:3.5.2:compile
+[INFO] |  |  |     \- javax.persistence:persistence-api:jar:1.0:compile
+[INFO] |  |  \- org.projectlombok:lombok:jar:1.16.22:compile
+[INFO] |  \- con.atguigu.gmall:gmall-bean:jar:1.0-SNAPSHOT:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.7.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.7:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.7:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.7:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.7:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.7.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.35:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.35:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.35:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.13.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.11.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.11.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.11.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.11.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.11.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.11.RELEASE:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:2.0.7.RELEASE:test
+[INFO]    +- org.springframework.boot:spring-boot-test:jar:2.0.7.RELEASE:test
+[INFO]    +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.7.RELEASE:test
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO]    |  +- net.minidev:json-smart:jar:2.3:test
+[INFO]    |  |  \- net.minidev:accessors-smart:jar:1.2:test
+[INFO]    |  |     \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO]    |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO]    +- junit:junit:jar:4.12:test
+[INFO]    +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO]    +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO]    |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO]    |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO]    |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO]    +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    +- org.springframework:spring-core:jar:5.0.11.RELEASE:compile
+[INFO]    |  \- org.springframework:spring-jcl:jar:5.0.11.RELEASE:compile
+[INFO]    +- org.springframework:spring-test:jar:5.0.11.RELEASE:test
+[INFO]    \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gmall-parent 1.0-SNAPSHOT .......................... SUCCESS [  7.693 s]
+[INFO] gmall-bean 1.0-SNAPSHOT ............................ SUCCESS [  0.163 s]
+[INFO] gmall-interface 1.0-SNAPSHOT ....................... SUCCESS [  0.081 s]
+[INFO] gmall-common-util 1.0-SNAPSHOT ..................... SUCCESS [  0.223 s]
+[INFO] gmall-web-util 1.0-SNAPSHOT ........................ SUCCESS [  0.071 s]
+[INFO] gmall-service-util 1.0-SNAPSHOT .................... SUCCESS [  0.087 s]
+[INFO] gmall-order-web 0.0.1-SNAPSHOT ..................... SUCCESS [  0.064 s]
+[INFO] gmall-user-manage 0.0.1-SNAPSHOT ................... SUCCESS [  0.055 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.764 s
+[INFO] Finished at: 2020-08-16T23:08:27+08:00
+[INFO] ------------------------------------------------------------------------
