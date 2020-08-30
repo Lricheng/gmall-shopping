@@ -18,6 +18,7 @@
         <module>gmall-user-manage</module>
         <module>gmall-manage-web</module>
         <module>gmall-manage-service</module>
+        <module>fastdfs-client-java</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
