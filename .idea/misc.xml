@@ -10,12 +10,14 @@
         <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-parent/gmall-user-manage/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-parent/gmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/fastdfs-client-java/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/gmall-parent/gmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/gmall-item-web/pom.xml" />
       </set>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
